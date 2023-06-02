@@ -14,7 +14,7 @@ import { SellerAuthComponent } from './seller-auth/seller-auth.component';
     HeaderComponent,
     HomeComponent,
     SellerAuthComponent,
-    FormsModule
+    // FormsModule
   ],
   imports: [
     BrowserModule,
