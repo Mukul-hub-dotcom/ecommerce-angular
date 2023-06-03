@@ -2,7 +2,7 @@
   <div class="sign-up">
     <h1>Seller Sign-Up</h1>
   </div>
-  <form  class="common-form" action="">
+  <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" class="common-form" action="">
     <input class="form-input" name="name" type="text" ngModel placeholder="Enter Name" />
     <input class="form-input" name="password" type="text" ngModel placeholder="Enter Password" />
     <input class="form-input" name="email" type="text" ngModel placeholder="Enter Email" />
